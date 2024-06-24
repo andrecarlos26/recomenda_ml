@@ -1,16 +1,40 @@
-# recomenda_ml
+# ML Recommendation
 
-A new Flutter project.
+![ML Recommendation Logo](link_da_logo_do_aplicativo)
 
-## Getting Started
+## Descrição
 
-This project is a starting point for a Flutter application.
+**ML Recommendation** é um aplicativo inovador que simplifica a complexidade da seleção de algoritmos de machine learning. Ele oferece recomendações personalizadas com base em um questionário detalhado, facilitando a ponte entre a eficiência técnica e a acessibilidade prática para profissionais de todos os níveis de conhecimento em Machine Learning.
 
-A few resources to get you started if this is your first Flutter project:
+## Funcionalidades Principais
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Questionário Detalhado:** Coleta informações essenciais do usuário para fornecer recomendações precisas de algoritmos.
+- **Recomendações Personalizadas:** Sugere algoritmos de machine learning adequados com base nas respostas do questionário.
+- **Interface Intuitiva:** Design amigável que facilita a navegação e a utilização do aplicativo.
+- **Biblioteca de Algoritmos:** Acesso a uma ampla gama de algoritmos de machine learning.
+- **Informações e Tutoriais:** Proporciona descrições detalhadas e tutoriais sobre os algoritmos recomendados.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Demonstração
+
+Confira a demonstração do aplicativo para ver como ele funciona na prática:
+
+[Vídeo de Demonstração do Aplicativo](https://drive.google.com/file/d/1glNcVw_URS4hR89EUjxubMI1noilTavl/view?usp=sharing)
+
+## Apresentação do Projeto
+
+Para uma visão detalhada do projeto, assista à nossa apresentação completa:
+
+[Vídeo de Apresentação do Projeto](https://drive.google.com/file/d/1NVju7q1i16EgxvLDXXVLJ8FcedMCM_8W/view?usp=sharing
+)
+
+## Como Contribuir
+
+1. Faça um fork deste repositório.
+2. Crie uma branch para sua feature (`git checkout -b minha-feature`).
+3. Commit suas alterações (`git commit -am 'Adiciona minha feature'`).
+4. Envie para a branch (`git push origin minha-feature`).
+5. Abra um Pull Request.
+
+
+
+Sinta-se à vontade para abrir uma issue caso tenha alguma dúvida ou sugestão!
