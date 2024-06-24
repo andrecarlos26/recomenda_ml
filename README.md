@@ -1,6 +1,6 @@
 # ML Recommendation
 
-![ML Recommendation Logo](link_da_logo_do_aplicativo)
+![ML Recommendation Logo](https://drive.google.com/file/d/1kCwOZXQPYfqbPiY9K0GhDS9MtgP3lAxX/view?usp=sharing)
 
 ## Descrição
 
