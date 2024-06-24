@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 import 'recomendacao_screen.dart'; // Substitua pelo caminho correto até seu arquivo
 
+// Utilize a constante de cor definida
+const Color appBarBackgroundColor = Color(0xFF0D47A1);
+
 class QuestionarioScreen extends StatefulWidget {
+  const QuestionarioScreen({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _QuestionarioScreenState createState() => _QuestionarioScreenState();
 }
 
@@ -17,12 +23,19 @@ class _QuestionarioScreenState extends State<QuestionarioScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Questionário de ML'),
-        backgroundColor: Colors.blue,
+        title: const Text('Questionário de ML'),
+        backgroundColor: appBarBackgroundColor, // Utilizando a mesma cor de fundo
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          onPressed: () {
+            Navigator.of(context).pop();
+          },
+          color: Colors.white, // Define a cor do ícone como branca
+        ),
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: EdgeInsets.all(16.0),
+          padding: const EdgeInsets.all(16.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -64,10 +77,10 @@ class _QuestionarioScreenState extends State<QuestionarioScreen> {
               ),
               ElevatedButton(
                 onPressed: () => _navigateToRecommendation(),
-                child: Text('Recomendar Algoritmo'),
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.lightBlueAccent,
+                  backgroundColor: const Color.fromARGB(255, 29, 160, 153),
                 ),
+                child: const Text('Recomendar Algoritmo'),
               ),
             ],
           ),
@@ -84,7 +97,7 @@ class _QuestionarioScreenState extends State<QuestionarioScreen> {
     required IconData iconData,
   }) {
     return Container(
-      margin: EdgeInsets.only(bottom: 20),
+      margin: const EdgeInsets.only(bottom: 20),
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(10),
@@ -93,7 +106,7 @@ class _QuestionarioScreenState extends State<QuestionarioScreen> {
             color: Colors.blueGrey.withOpacity(0.5),
             spreadRadius: 2,
             blurRadius: 5,
-            offset: Offset(0, 3),
+            offset: const Offset(0, 3),
           ),
         ],
       ),
@@ -102,7 +115,7 @@ class _QuestionarioScreenState extends State<QuestionarioScreen> {
         children: [
           ListTile(
             leading: Icon(iconData, color: Colors.blue), // Ícone relacionado à pergunta
-            title: Text(question, style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.blue)),
+            title: Text(question, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.blue)),
             tileColor: Colors.white, // Garante que o fundo do ListTile combine com o Container
           ),
           ...options.map((option) => RadioListTile<String>(
@@ -136,12 +149,12 @@ class _QuestionarioScreenState extends State<QuestionarioScreen> {
       showDialog(
         context: context,
         builder: (context) => AlertDialog(
-          title: Text('Aviso'),
-          content: Text('Por favor, responda todas as perguntas antes de continuar.'),
+          title: const Text('Aviso'),
+          content: const Text('Por favor, responda todas as perguntas antes de continuar.'),
           actions: <Widget>[
             TextButton(
               onPressed: () => Navigator.of(context).pop(),
-              child: Text('OK'),
+              child: const Text('OK'),
             ),
           ],
         ),

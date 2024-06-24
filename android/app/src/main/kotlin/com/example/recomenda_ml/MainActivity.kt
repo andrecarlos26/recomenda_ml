@@ -1,4 +1,4 @@
-package com.example.recomenda_ml
+package com.ufrpe.recomenda_ml
 
 import io.flutter.embedding.android.FlutterActivity
 
