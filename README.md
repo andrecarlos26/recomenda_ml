@@ -14,6 +14,21 @@
 - **Biblioteca de Algoritmos:** Acesso a uma ampla gama de algoritmos de machine learning.
 - **Informações e Tutoriais:** Proporciona descrições detalhadas e tutoriais sobre os algoritmos recomendados.
 
+## Mapa Mental
+
+Confira o mapa mental construído na idealização do projeto:
+
+[Mapa Mental](https://drive.google.com/file/d/1dBS8LANaHnVPTDLl91qjrRs8hzibSbbB/view?usp=sharing)
+
+## Protótipos
+
+Confira os protótipos de baixa e média fidelidade:
+
+[Protótipo de Baixa Fidelidade](https://drive.google.com/file/d/1Y46jrDGgo_nLwKOWJJut3z7tGYh2R2i0/view?usp=sharing)
+
+[Protótipo de Média Fidelidade](https://drive.google.com/file/d/18cZYD0KnCrABpXVop7ULbnLiEOYnlcLt/view?usp=sharing)
+
+
 ## Demonstração
 
 Confira a demonstração do aplicativo para ver como ele funciona na prática:
@@ -26,6 +41,8 @@ Para uma visão detalhada do projeto, assista à nossa apresentação completa:
 
 [Vídeo de Apresentação do Projeto](https://drive.google.com/file/d/1NVju7q1i16EgxvLDXXVLJ8FcedMCM_8W/view?usp=sharing
 )
+
+
 
 ## Como Contribuir
 
